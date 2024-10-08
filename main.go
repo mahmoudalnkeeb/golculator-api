@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	math_handlers "math_api/api/handlers"
+	math_handlers "golculator-api/api/handlers"
 )
 
 func main() {

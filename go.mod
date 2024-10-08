@@ -1,3 +1,3 @@
-module math_api
+module golculator-api
 
 go 1.23.1

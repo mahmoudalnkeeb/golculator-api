@@ -1,8 +1,8 @@
 package math_handlers
 
 import (
-	api_utils "math_api/api/utils/api"
-	math_utils "math_api/api/utils/math"
+	api_utils "golculator-api/api/utils/api"
+	math_utils "golculator-api/api/utils/math"
 	"net/http"
 )
 
