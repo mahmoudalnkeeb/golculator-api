@@ -1,4 +1,4 @@
-package math_handlers
+package math
 
 import (
 	"encoding/json"

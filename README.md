@@ -26,8 +26,8 @@
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/mahmoudalnkeeb/golculator-api.git
-   cd golculator-api
+   git clone https://github.com/mahmoudalnkeeb/github.com/mahmoudalnkeeb/golculator-api.git
+   cd github.com/mahmoudalnkeeb/golculator-api
    ```
 
 2. **Install dependencies** (if any):
@@ -131,7 +131,7 @@ The API provides meaningful error messages for invalid requests:
 To run the tests for the API, use the following command:
 
 ```bash
-go test ./...
+go test ./tests
 ```
 
 ### License

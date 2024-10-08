@@ -1,4 +1,4 @@
-package math_utils
+package utils
 
 import (
 	"errors"

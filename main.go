@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"net/http"
 
-	math_handlers "golculator-api/api/handlers"
+	"github.com/mahmoudalnkeeb/golculator-api/api/handlers/math"
 )
 
 func main() {
-	http.HandleFunc("/add", math_handlers.AddHandler)
-	http.HandleFunc("/subtract", math_handlers.SubtractHandler)
-	http.HandleFunc("/divide", math_handlers.DivideHandler)
-	http.HandleFunc("/multiply", math_handlers.MultiplyHandler)
+	http.HandleFunc("/add", math.AddHandler)
+	http.HandleFunc("/subtract", math.SubtractHandler)
+	http.HandleFunc("/divide", math.DivideHandler)
+	http.HandleFunc("/multiply", math.MultiplyHandler)
 
 	err := http.ListenAndServe(":3333", nil)
 
